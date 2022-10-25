@@ -292,21 +292,18 @@ body {
   }
 
   /* TODO Accsent-img */
-  .accssent-1 {
-    height: 130px;
-    width: 1200px;
-  }
+
   .accssent-2 {
     display: none;
   }
 
   .accssent-3 {
-    top: 170px;
-    left: 320px;
+    top: 130px;
+    left: 330px;
   }
 
   .accssent-4 {
-    top: 150px;
+    top: 175px;
     left: 260px;
   }
   .accssent-5 {
