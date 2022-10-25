@@ -1,0 +1,393 @@
+:root {
+  --pr-color: #003459;
+  --white: #ffffff;
+}
+
+img.accssent {
+  z-index: 1;
+}
+
+.navbar {
+  z-index: 2;
+}
+header {
+  /* position: relative; */
+  height: 100vh;
+  background: linear-gradient(
+    102.87deg,
+    #fceed5 6.43%,
+    #fceed5 78.33%,
+    #ffe7ba 104.24%
+  );
+}
+
+* {
+  /* border: 1px solid black; */
+  overflow-x: hidden;
+}
+
+footer {
+  background: linear-gradient(
+    102.87deg,
+    #fceed5 6.43%,
+    #fceed5 78.33%,
+    #ffe7ba 104.24%
+  );
+  padding-bottom: 50px;
+}
+
+.footer-body {
+  background-color: var(--pr-color);
+  border-radius: 14px;
+}
+
+.email-box {
+  background-color: var(--white);
+  width: 585px;
+  border-radius: 10px;
+}
+
+.box-card h2 {
+  font-size: 20px;
+  line-height: 30px;
+  width: 321px;
+  font-weight: 600;
+  color: var(--white);
+}
+
+.subcribe-btn {
+  border-radius: 6px;
+  font-size: 13px;
+  width: 140px;
+  padding: 13px;
+  border: none;
+  color: var(--white);
+  background-color: var(--pr-color);
+}
+
+.email-box input {
+  color: #99a2a5;
+  font-size: 12px;
+  padding: 13px;
+}
+
+.email-box form {
+  padding-top: 11px;
+}
+
+.footer-nav .nav-link {
+  font-weight: lighter;
+  font-size: 14px;
+  line-height: 20px;
+  padding-right: 70px;
+}
+
+.footer-sosmed {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.form-input input:active {
+  border: none;
+}
+.form-input .search-input {
+  width: 250px;
+  height: 40px;
+  border-radius: 38px;
+}
+
+.form-input .search-input input {
+  font-size: 14px;
+}
+
+.button-primary {
+  height: 40px;
+  width: 160px;
+  font-size: 14px;
+  border-radius: 47.090232849121094px;
+  border: none;
+  color: var(--white);
+  background-color: var(--pr-color);
+}
+
+.button-primary.outline {
+  border: 1px solid var(--pr-color);
+  color: var(--pr-color);
+  background-color: transparent;
+}
+
+.nav-link {
+  color: var(--pr-color);
+  font-weight: 600;
+}
+
+/* TODO Hero Section */
+
+.hero-tagline {
+  z-index: 2;
+  margin-top: 5%;
+}
+
+.hero-tagline h1 {
+  font-weight: 800;
+  font-size: 50px;
+}
+
+.hero-tagline h1 span {
+  font-weight: 500;
+  font-size: 38px;
+  display: block;
+}
+
+.hero-tagline p {
+  font-size: 10px;
+  width: 83%;
+  line-height: 15px;
+}
+
+.hero-tagline button {
+  font-size: 13px;
+  line-height: 19px;
+}
+
+.hero-btn {
+  height: 40px;
+  width: 140px;
+}
+
+.hero-img img {
+  width: 600px;
+  right: 130px;
+}
+
+/* TODO Accsent-img */
+.accssent-2 {
+  top: 20%;
+  left: 7.5%;
+}
+
+.accssent-3 {
+  top: 19%;
+  left: 39%;
+}
+
+.accssent-4 {
+  top: 30%;
+  left: 38%;
+}
+
+/* TODO Pets section */
+#pets {
+  background-color: #fff;
+}
+
+.card {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card img {
+  border-radius: 10px;
+}
+.card h2 {
+  font-size: 0.9375rem;
+  line-height: 12px;
+  font-weight: 600;
+  color: var(--pr-color);
+}
+
+.card p {
+  font-size: 11px;
+  line-height: 14.87px;
+  color: #667479;
+  word-spacing: 2px;
+}
+
+.card p span {
+  color: #667479;
+  font-weight: 600;
+}
+
+.card h3 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+/* TODO Banner section */
+.banner {
+  height: 340px;
+  background-color: var(--pr-color);
+  border-radius: 17px;
+}
+
+.banner-tagline {
+  z-index: 2;
+}
+
+.banner-img {
+  z-index: 2;
+}
+
+.banner-tagline h2 {
+  color: var(--pr-color);
+  font-weight: 600;
+  font-size: 43px;
+  line-height: 56px;
+}
+
+.banner-tagline h3 {
+  color: var(--pr-color);
+  font-size: 30px;
+  line-height: 44px;
+}
+
+.banner-tagline p {
+  color: #242b33;
+
+  font-size: 10px;
+  line-height: 15px;
+}
+
+.banner .acssent .acssent-right {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .hero-tagline h1 {
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 45px;
+  }
+
+  .hero-tagline h1 span {
+    font-weight: 500;
+    font-size: 22px;
+  }
+
+  .hero-tagline p {
+    font-size: 9.21px;
+    width: 95%;
+    text-align: justify;
+    line-height: 16px;
+  }
+
+  .hero-tagline button {
+    font-size: 13px;
+    line-height: 19px;
+  }
+
+  .hero-btn {
+    height: 40px;
+    width: 140px;
+  }
+
+  .hero-img img {
+    right: 0;
+  }
+
+  /* TODO Accsent-img */
+  .accssent-1 {
+    height: 130px;
+    width: 1200px;
+  }
+  .accssent-2 {
+    display: none;
+  }
+
+  .accssent-3 {
+    top: 170px;
+    left: 320px;
+  }
+
+  .accssent-4 {
+    top: 150px;
+    left: 260px;
+  }
+  .accssent-5 {
+    display: none;
+  }
+
+  /* TODO Sub title */
+  .sub-title {
+    font-size: 20px;
+  }
+  .mobile-button {
+    width: 100%;
+  }
+
+  /* TODO Pets section */
+  #pets {
+    padding: 0px 10px 0px 10px;
+  }
+
+  .card h2 {
+    font-size: 11px;
+    line-height: 15px;
+  }
+
+  .card p {
+    font-size: 12px;
+    line-height: 14.87px;
+  }
+
+  .card p span {
+    color: #667479;
+    font-weight: 600;
+  }
+
+  .card h3 {
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  /* TODO Banner section */
+  .banner {
+    height: 510px;
+  }
+
+  .banner-tagline h2 {
+    font-size: 27.63px;
+    line-height: 41.4px;
+  }
+
+  .banner-tagline h3 {
+    color: var(--pr-color);
+    font-size: 18.42px;
+    line-height: 15.6px;
+  }
+
+  .banner-tagline p {
+    color: #242b33;
+
+    font-size: 10px;
+    line-height: 13.8px;
+  }
+
+  .banner .acssent .acssent-right {
+    height: 300px;
+    top: -20px;
+    right: 0;
+  }
+
+  /* TODO Footer */
+
+  .email-box {
+    padding: 30px;
+  }
+
+  .box-card h2 {
+    font-size: 18px;
+    line-height: 30px;
+    width: 300px;
+  }
+
+  .subcribe-btn {
+    margin-top: 10px;
+  }
+}
